@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FCF9F3;
+  --primary: #E78345;
+  --primary2: #F17B33;
+  --foreground: #777;
+  --Navy-Blue: #1A1A41;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: 'Urbanist-Variable';
+  src: url('../public/fonts/Urbanist-VariableFont_wght.ttf') format('truetype');
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
+}
