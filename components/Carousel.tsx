@@ -36,37 +36,37 @@ const SliderComponent = () => {
       }}
     >
       {/* Slide for Video */}
-      <SwiperSlide className="flex justify-center items-center h-80 overflow-hidden rounded-lg">
+      <SwiperSlide className="flex justify-center items-center overflow-hidden rounded-lg">
         <VideoPlayer src="/assets/11.mov" width={262} height={314}/>
       </SwiperSlide>
 
       {/* Slide for Image */}
       <SwiperSlide className="flex justify-center items-center ">
         <div className="relative w-full h-full">
-          <Image src="/assets/two.svg" alt="Slide 2" width={262} height={314}/>
+          <Image src="/assets/two.svg" alt="Slide 2" width={262} height={314} className='w-full'/>
         </div>
       </SwiperSlide>
 
       {/* Slide for Video */}
-      <SwiperSlide className="flex justify-center items-center h-80 overflow-hidden rounded-lg">
+      <SwiperSlide className="flex justify-center items-center overflow-hidden rounded-lg">
         <VideoPlayer src="/assets/33.mp4" width={262} height={314}/>
       </SwiperSlide>
 
       {/* Slide for Image */}
       <SwiperSlide className="flex justify-center items-center ">
         <div className="relative w-full h-full">
-          <Image src="/assets/four.svg" alt="Slide 1" width="262" height="314"/>
+          <Image src="/assets/four.svg" alt="Slide 1" width={262} height={314} className='w-full'/>
         </div>
       </SwiperSlide>
 
       {/* Slide for Video */}
-      <SwiperSlide className="flex justify-center items-center h-80 overflow-hidden  rounded-lg">
+      <SwiperSlide className="flex justify-center items-center overflow-hidden  rounded-lg">
         <VideoPlayer src="/assets/55.mp4" width={262} height={314}/>
       </SwiperSlide>
 
       <SwiperSlide className="flex justify-center items-center ">
         <div className="relative w-full h-full">
-          <Image src="/assets/four.svg" alt="Slide 1" width="262" height="314"/>
+          <Image src="/assets/four.svg" alt="Slide 1" width={262} height={314} className='w-full'/>
         </div>
       </SwiperSlide>
     </Swiper>
