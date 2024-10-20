@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import confident from "@/public/assets/confident.svg";
 import connected from "@/public/assets/connected.svg";

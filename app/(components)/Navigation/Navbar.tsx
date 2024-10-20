@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 import ShanakhtLogo from "@/public/assets/ShanakhtLogo.svg"
 import Image from 'next/image'

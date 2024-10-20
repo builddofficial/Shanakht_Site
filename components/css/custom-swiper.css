@@ -1,0 +1,22 @@
+/* custom-swiper.css */
+
+/* Custom Pagination Bullets */
+.swiper-pagination-bullet {
+    right: 20px;
+    background-color: #fff; /* Default bullet color */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #F17B33; /* Active bullet color */
+  }
+  
+  /* Custom Navigation Arrows */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #F17B33; /* Change the arrow color */
+  }
+  
+  .custom-swiper {
+    height: 20rem; /* Or adjust to desired height */
+  }
+  
