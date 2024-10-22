@@ -6,7 +6,7 @@ import React from "react";
 
 const WhatWeDo: React.FC = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 mb-48">
+    <div id="what-we-do" className="max-w-screen-xl mx-auto px-4 mb-48">
       <div className="grid grid-cols-3 gap-7 md:gap-4 mb-7">
         <div className="col-span-3 lg:col-span-2">
           <div className="text-6xl md:text-9xl font-bold text-primary tracking-[33px] md:tracking-[69.12px]">

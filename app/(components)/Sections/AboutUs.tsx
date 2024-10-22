@@ -7,7 +7,7 @@ import quotation from "@/public/assets/‘’.svg";
 const AboutUs: React.FC = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div id="team" className="max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div className="text-center flex items-center flex-col justify-between">
             <Image src={person1} alt="Sabeen Hamood" />

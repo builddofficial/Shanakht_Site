@@ -13,7 +13,7 @@ import Image from "next/image";
 const Hero: React.FC = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div id="home" className="max-w-screen-xl mx-auto px-4">
         <div className="text-center space-y-4">
           <h1 className="text-primary font-bold text-4xl md:text-8xl md:mb-8 mt-16">
             SHANAKHT

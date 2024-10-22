@@ -3,19 +3,41 @@
 import React from "react";
 import ShanakhtLogo from "@/public/assets/ShanakhtLogo.svg";
 import Image from "next/image";
+import Link from "next/link";
+
 const Navbar: React.FC = () => {
   return (
     <>
       <div className="max-w-screen-xl flex justify-between items-center py-7 mx-auto px-4">
-        <Image src={ShanakhtLogo} alt={"Shankht Logo"} className="w-auto" />
+        <Image src={ShanakhtLogo} alt={"Shanakht Logo"} className="w-auto" />
         <ul className="md:flex gap-14 font-semibold font-urbanist text-NavyBlue text-xl hidden">
-          <li>Home</li>
-          <li>What We Do</li>
-          <li>Get Involved</li>
-          <li>Team</li>
-          <li>Contact</li>
+          <li>
+            <Link href="#home" className="hover:text-primary hover:cursor-pointer transition-all duration-150">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="#what-we-do"  className="hover:text-primary hover:cursor-pointer transition-all duration-150">
+              What We Do
+            </Link>
+          </li>
+          <li>
+            <Link href="#get-involved" className="hover:text-primary hover:cursor-pointer transition-all duration-150">
+              Get Involved
+            </Link>
+          </li>
+          <li>
+            <Link href="#team" className="hover:text-primary hover:cursor-pointer transition-all duration-150">
+              Team
+            </Link>
+          </li>
+          <li>
+            <Link href="#contact" className="hover:text-primary hover:cursor-pointer transition-all duration-150">
+              Contact
+            </Link>
+          </li>
         </ul>
-        <div className="flex gap-7 items-center">
+        <div className="gap-7 items-center hidden">
           <div className="text-NavyBlue font-semibold font-urbanist underline">
             Log in
           </div>

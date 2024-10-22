@@ -10,7 +10,7 @@ import React from "react";
 const JoinUs: React.FC = () => {
   return (
     <>
-      <div className="max-w-screen-xl mx-auto px-4 my-48">
+      <div id="get-involved" className="max-w-screen-xl mx-auto px-4 my-48">
         <h1 className="font-primary text-5xl md:text-7xl font-bold text-primary mb-4">
           JOIN OUR COMMUNITY
         </h1>

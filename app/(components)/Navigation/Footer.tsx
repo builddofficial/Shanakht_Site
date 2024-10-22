@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   return (
     <>
       {/* Newsletter */}
-      <div className="flex flex-col gap-7 md:flex-row md:gap-0 justify-between items-center border bg-background border-[#FEEFDC] rounded-lg shadow-lg px-6 py-8 max-w-4xl mx-auto relative -mb-10 mt-32 ">
+      <div id="contact" className="flex flex-col gap-7 md:flex-row md:gap-0 justify-between items-center border bg-background border-[#FEEFDC] rounded-lg shadow-lg px-6 py-8 max-w-4xl mx-auto relative -mb-10 mt-32 ">
         <div className="">
           <p className="text-xl text-[#777]">Newsletter</p>
           <h1 className="text-3xl text-[#777] w-10/12">
