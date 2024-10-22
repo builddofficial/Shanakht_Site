@@ -7,7 +7,7 @@ import WhatWeDo from "./(components)/Sections/WhatWeDo";
 export default function Home() {
   return (
     <>
-      <div className="overflow-x-hidden"> 
+      <div className="overflow-x-hidden">
         <Hero />
         <JoinUs />
         <WhatWeDo />

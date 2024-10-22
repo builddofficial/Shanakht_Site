@@ -3,13 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --background: #FCF9F3;
-  --primary: #E78345;
-  --primary2: #F17B33;
+  --background: #fcf9f3;
+  --primary: #e78345;
+  --primary2: #f17b33;
   --foreground: #777;
-  --Navy-Blue: #1A1A41;
+  --Navy-Blue: #1a1a41;
 }
-
 
 body {
   color: var(--foreground);
@@ -23,8 +22,8 @@ body {
 }
 
 @font-face {
-  font-family: 'Urbanist-Variable';
-  src: url('../public/fonts/Urbanist-VariableFont_wght.ttf') format('truetype');
+  font-family: "Urbanist-Variable";
+  src: url("../public/fonts/Urbanist-VariableFont_wght.ttf") format("truetype");
   font-weight: 200 800;
   font-display: swap;
   font-style: normal;

@@ -10,7 +10,7 @@ import mid from "@/public/assets/mid.svg";
 import opportunities from "@/public/assets/opportunities.svg";
 import Image from "next/image";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <>
       <div className="max-w-screen-xl mx-auto px-4">
@@ -32,25 +32,26 @@ const Hero = () => {
         </div>
         <div className="grid gap-4 grid-cols-3 md:grid-cols-5 my-7">
           <div className="space-y-4">
-            <Image src={inspired} alt="FEEL INSPIRED"/>
-            <Image src={development} alt="Holistic Development"/>
+            <Image src={inspired} alt="FEEL INSPIRED" />
+            <Image src={development} alt="Holistic Development" />
           </div>
           <div className="mt-auto hidden md:block">
             <Image src={connected} alt="Feel Connected" />
           </div>
           <div className="mt-auto relative">
-
             <div className="text-primary font-bold text-xl sm:text-3xl lg:text-4xl xl:text-5xl text-center w-fit tracking-tighter leading-tight xl:leading-[2.9rem]">
               Feel INCLUDED WITH US{" "}
             </div>
             <Image src={mid} alt="Join Us" />
-            <div className="w-full bg-primary2 text-white text-2xl font-semibold font-urbanist text-center py-[6px] absolute bottom-0 hover:cursor-pointer hover:text-white/85 transition-all duration-150">Join Us</div>
+            <div className="w-full bg-primary2 text-white text-2xl font-semibold font-urbanist text-center py-[6px] absolute bottom-0 hover:cursor-pointer hover:text-white/85 transition-all duration-150">
+              Join Us
+            </div>
           </div>
           <div className="mt-auto hidden md:block">
             <Image src={confident} alt="Feel Confident" />
           </div>
           <div className="space-y-4">
-            <Image src={empowered} alt="FEEL Empowered"/>
+            <Image src={empowered} alt="FEEL Empowered" />
             <Image
               src={opportunities}
               alt="Learning opportunities"
