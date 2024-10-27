@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ShanakhtLogo from "@/public/assets/ShanakhtLogo.svg";
+import ShanakhtLogo from "@/public/assets/SH-cropped.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="max-w-screen-xl flex justify-between items-center py-7 mx-auto px-4">
-        <Image src={ShanakhtLogo} alt={"Shanakht Logo"} className="w-auto" />
+        <Image src={ShanakhtLogo} alt={"Shanakht Logo"} className="w-28" />
         <ul className="md:flex gap-14 font-semibold font-urbanist text-NavyBlue text-xl hidden">
           <li>
             <Link href="#home" className="hover:text-primary hover:cursor-pointer transition-all duration-150">

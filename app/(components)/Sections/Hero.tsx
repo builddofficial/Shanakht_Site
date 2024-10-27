@@ -21,8 +21,9 @@ const Hero: React.FC = () => {
           <p className="text-xl md:text-2xl md:w-4/5 mx-auto">
             Shanakht is a social service organization dedicated to creating
             impactful dialogues and building skills through educational content,
-            donation drives, and internship programs. We strive to empower
-            communities and individuals to contribute positively to society.
+            donation drives, and internship programs. 
+            {/* We strive to empower
+            communities and individuals to contribute positively to society. */}
           </p>
           <p className="text-primary font-bold text-2xl md:text-3xl">
             Shanakht aims to foster meaningful discourse and social development

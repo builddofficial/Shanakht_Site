@@ -15,7 +15,7 @@ const JoinUs: React.FC = () => {
           JOIN OUR COMMUNITY
         </h1>
         <div className="flex gap-4 flex-col xl:flex-row">
-          <div className="space-y-8">
+          <div className="my-4 md:my-8 xl:my-16 space-y-4 md:space-y-8 xl:space-y-16">
             <p className="text-primary2 font-semibold text-2xl md:text-3xl">
               Shanakht welcomes volunteers to help with content creation, event
               organization, and outreach efforts.
@@ -25,10 +25,10 @@ const JoinUs: React.FC = () => {
                 Want to engage in public discourse but don’t know where to start
                 or feel disconnected from it? Don’t Worry!
               </p>
-              <p className="text-primary">
+              {/* <p className="text-primary">
                 Shanakht creates opportunities to participate meaningfully and
                 contribute to the larger conversation
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="relative">
@@ -44,7 +44,7 @@ const JoinUs: React.FC = () => {
         </div>
         <div className="flex items-center justify-between my-7 flex-col xl:flex-row gap-7">
           <div className="space-y-5">
-            <h3 className="font-bold text-4xl">How to Apply</h3>
+            <h3 className="font-bold text-4xl text-primary">How to Apply</h3>
             <p className="font-medium text-2xl md:text-3xl w-11/12">
               Interested volunteers can apply through logging in on this
               platform.{" "}
