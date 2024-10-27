@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ShanakhtLogo from "@/public/assets/SH-cropped.png";
+import ShanakhtLogo from "@/public/assets/SH-cropped.svg";
 import Image from "next/image";
 import Link from "next/link";
 
