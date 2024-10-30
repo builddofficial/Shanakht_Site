@@ -16,13 +16,13 @@ const WhatWeDo: React.FC = () => {
             <h1 className="text-5xl md:text-8xl font-bold text-primary">
               WE<div className="mt-6">DO</div>{" "}
             </h1>
-            <p className="text-2xl font-semibold">
+            <p className="text-lg md:text-2xl leading-tight md:leading-normal font-semibold">
               The organization aims to bridge gaps in knowledge and opportunity,
               fostering an environment where individuals can grow, engage in
-              meaningful dialogue, and contribute to societal progress. It
+              meaningful dialogue, and contribute to societal progress. <span className="hidden md:inline">It
               reflects a commitment to overcoming obstacles and creating a space
               where everyone, regardless of their background, has the resources
-              and support to make a positive impact.
+              and support to make a positive impact.</span>
             </p>
           </div>
         </div>

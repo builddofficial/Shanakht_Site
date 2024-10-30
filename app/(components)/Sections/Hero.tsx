@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
             {/* We strive to empower
             communities and individuals to contribute positively to society. */}
           </p>
-          <p className="text-primary font-bold text-2xl md:text-3xl">
+          <p className="text-primary font-bold text-2xl md:text-3xl hidden xl:block">
             Shanakht aims to foster meaningful discourse and social development
             through various platforms, including podcasts, interviews, and
             workshops.

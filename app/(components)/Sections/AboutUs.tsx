@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import person1 from "@/public/assets/person1.svg";
-import person2 from "@/public/assets/person2.svg";
+import person1 from "@/public/assets/pic1.svg";
+import person2 from "@/public/assets/pic2.svg";
 import quotation from "@/public/assets/‘’.svg";
 const AboutUs: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs: React.FC = () => {
       <div id="team" className="max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-between flex-col md:flex-row">
           <div className="text-center flex items-center flex-col justify-between">
-            <Image src={person1} alt="Sabeen Hamood" />
+            <Image src={person1} alt="Sabeen Hamood" width={325} height={440} className="rounded-xl my-5 shadow-lg"/>
             <h1 className="font-bold text-4xl md:text-5xl text-NavyBlue">
               Sabeen Hamood{" "}
             </h1>
@@ -19,7 +19,7 @@ const AboutUs: React.FC = () => {
             </p>
           </div>
           <div className="text-center flex items-center flex-col justify-between">
-            <Image src={person2} alt="Sabeen Hamood" />
+            <Image src={person2} alt="Sabeen Hamood" width={325} height={440} className="rounded-xl my-5 shadow-lg"/>
             <h1 className="font-bold text-4xl md:text-5xl text-NavyBlue">
               Qandeel Khan
             </h1>
